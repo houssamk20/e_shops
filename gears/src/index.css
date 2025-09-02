@@ -1,0 +1,31 @@
+/* Remove ALL @tailwind directives and use this instead */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Rajdhani:wght@500;600;700&display=swap');
+
+/* Import Tailwind CSS from CDN */
+@import url('https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css');
+
+/* Your custom styles */
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Rajdhani', sans-serif;
+}
+
+/* Custom color classes since CDN version doesn't have your custom config */
+.bg-primary { background-color: #1e40af; }
+.bg-secondary { background-color: #1e3a8a; }
+.bg-accent { background-color: #f59e0b; }
+.bg-dark { background-color: #1f2937; }
+.bg-light { background-color: #f3f4f6; }
+
+.text-primary { color: #1e40af; }
+.text-secondary { color: #1e3a8a; }
+.text-accent { color: #f59e0b; }
+.text-dark { color: #1f2937; }
+.text-light { color: #f3f4f6; }
+
+.border-primary { border-color: #1e40af; }
+.border-secondary { border-color: #1e3a8a; }
+.border-accent { border-color: #f59e0b; }
